@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="validation.css">
+    <link rel="icon" href="#">
+    <script defer src="./javaScript.js"></script>
+    <title>Basic HTML Structure</title>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <div class="logo">
+                <a href="#">MOHANNAD</a>
+            </div>
+            <div class="content">
+                <a href="./index.html">Introduction</a>
+                <a href="./index.html">Paragraphs</a>
+                <a href="./validation.html">Validation</a>
+            </div>
+        </div>
+    </header>
+    <section class="validation" id="validation">
+        <div class="container">
+            <form id="form" action="/">
+                <h1>Registration</h1>
+                <div class="input-control">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="Password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="Password2">Password again</label>
+                    <input id="password2" name="password2" type="Password">
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
